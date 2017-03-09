@@ -58,9 +58,9 @@ try:
 
                 #send real time data to ubidots
                 api.save_collection([
-                {'variable': '58a7fe9676254232d564ed64', 'value': temperature},
-                {'variable': '58a800f876254232d2b3a069', 'value': humidity},
-                {'variable': '58a8010576254232d2b3a0fb', 'value': li}
+                {'variable': '', 'value': temperature},
+                {'variable': '', 'value': humidity},
+                {'variable': '', 'value': li}
                 ])
 
                 print

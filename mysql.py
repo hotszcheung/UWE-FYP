@@ -14,7 +14,7 @@ import Adafruit_DHT
 #username = root
 #password = 287730849
 #db = test1
-conn = MySQLdb.connect("localhost","root" ,"287730849" ,"test1")
+conn = MySQLdb.connect("localhost","root" ,"" ,"test1")
 
 
 try:
